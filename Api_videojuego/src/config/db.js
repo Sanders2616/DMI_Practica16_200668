@@ -4,16 +4,13 @@ import dotenv from "dotenv";
 dotenv.config({path :"src/.env"})
 
 const dbConnection = new sequelize(
-    // process.env.DB_NAME,
-    // process.env.DB_USER,
-    // process.env.DB_PASSWORD,
-    "videojuego_200668",
-    "admin",
-    "1234",
+     process.env.DB_NAME,
+    process.env.DB_USER,
+    process.env.DB_PASSWORD,
     {
-        host: "localhost",
-        port: 3306,
-        dialect:"mysql"
+        host : process.env.HOST,
+        port: process.env.DB_PORT,
+        dialect: "mysql"
     }
 )
 
