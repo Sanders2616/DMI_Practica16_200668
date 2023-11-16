@@ -7,15 +7,15 @@
 UNIVERSIDAD TECNOLÓGICA DE XICOTEPEC DE JUÁREZ <br><br>
 Materia: Desarrollo Movil Integral <br>
 200668_Sandra Aguilar Santos<br>
-PRÁCTICA 16:<br>
-Descripción:Una práctica de una API REST desarrollada en Node.js es un enfoque eficiente y versátil para crear servicios web. Esta API ofrece operaciones CRUD (Crear, Leer, Actualizar y Borrar) para gestionar recursos de datos. Utilizando Express.js, se configuran las rutas y controladores correspondientes para cada operación.
+PRÁCTICA 16:Creación del modelo jugadores e implementación de búsqueda de todos los jugadores existentes<br>
+Descripción:La práctica de desarrollo de una API REST en Node.js se focaliza en la eficiencia y versatilidad para la gestión de servicios web. Esta API sigue el principio CRUD (Crear, Leer, Actualizar, Borrar) para manipular recursos de datos, ofreciendo una plataforma flexible para interactuar con la información.
 
-Para crear datos, se envían solicitudes POST con JSON al endpoint adecuado. Para leer, se utiliza una solicitud GET para recuperar datos. Actualizar se logra con PUT, mientras que DELETE se usa para eliminar recursos.
+A través de Express.js, se configuran las rutas y controladores correspondientes a cada operación, permitiendo que las solicitudes HTTP se conecten con las funciones específicas de Crear, Leer, Actualizar y Borrar. Las solicitudes POST con JSON se emplean para la creación de datos, mientras que GET, PUT y DELETE se utilizan para la lectura, actualización y eliminación de recursos respectivamente.
 
-La API utiliza controladores para procesar las solicitudes y realizar operaciones en la base de datos. Se emplea una base de datos como MySQL para almacenar y gestionar datos. El middleware de autenticación y autorización se incorpora para garantizar la seguridad.
+La API se basa en controladores que gestionan las solicitudes, llevando a cabo las operaciones necesarias en una base de datos como MySQL. Esta estructura garantiza la coherencia y la persistencia de los datos, además de permitir un manejo ágil y seguro de la información. Además, se integra un middleware de autenticación y autorización para asegurar la protección de los datos y la identificación de usuarios autorizados.
 
-Esta API REST en Node.js es escalable, fácil de mantener y ofrece un mecanismo robusto para interactuar con los datos a través de solicitudes HTTP. <br>
-Fecha entrega: 15 de Noviembre del 2023 <br> <br>
+La fortaleza de esta API reside en su escalabilidad, su mantenimiento sencillo y su capacidad para interactuar de manera sólida con los datos mediante solicitudes HTTP, proporcionando un entorno robusto para la gestión y manipulación de información. <br>
+Fecha entrega: 16 de Noviembre del 2023 <br> <br>
 
 # Resultado de la Practica 16
 
